@@ -5,7 +5,6 @@ utilizando [Terraform](https://www.terraform.io/) e [Docker](https://www.docker.
 
 
 ## Screenshots
-App view:
 ![App UI](/cover.png)
 
 ## Contato
