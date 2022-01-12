@@ -1,6 +1,6 @@
 terraform {
   required_version = "1.1.2"
-  
+
   required_providers {
     docker = {
       source  = "kreuzwerker/docker"
@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "docker" {
-  host    = "npipe:////.//pipe//docker_engine"
+  host = "npipe:////.//pipe//docker_engine"
 }
 
 resource "docker_image" "nginx" {
