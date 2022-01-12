@@ -7,7 +7,7 @@ resource "aws_instance" "server" {
   tags = merge(
     local.common_tags,
     {
-      Project = "Curso AWS com Terraform"
+      Project = "Example Terraform"
       Env     = format("%s", var.env)
       Name    = format("Instance %d", count.index + 1)
     }

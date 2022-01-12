@@ -26,7 +26,7 @@ resource "aws_s3_bucket" "remote-state" {
   tags = {
     Description = "Stores terraform remote state files"
     ManagedBy   = "Terraform"
-    Owner       = "Cleber Gasparoto"
+    Owner       = "Ismael alves"
     CreatedAt   = "2021-01-24"
   }
 }

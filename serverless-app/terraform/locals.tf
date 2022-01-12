@@ -7,7 +7,7 @@ locals {
     Project   = "TODO Serverless App"
     CreatedAt = "2020-03-16"
     ManagedBy = "Terraform"
-    Owner     = "Cleber Gasparoto"
+    Owner     = "Ismael alves"
     Service   = var.service_name
   }
 }

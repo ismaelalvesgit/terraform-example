@@ -25,7 +25,7 @@ resource "aws_instance" "this" {
   instance_type = lookup(each.value, "type", null)
 
   tags = {
-    Project = "Curso AWS com Terraform"
+    Project = "Example Terraform"
     Name    = "${each.key}: ${lookup(each.value, "name", null)}"
     Lesson  = "Foreach, For, Splat"
   }

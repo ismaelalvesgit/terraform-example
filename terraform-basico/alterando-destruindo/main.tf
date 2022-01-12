@@ -28,7 +28,7 @@ resource "aws_s3_bucket" "my-test-bucket" {
     Name        = "My first Terraform bucket"
     Environment = "Dev"
     ManagedBy   = "Terraform"
-    Owner       = "Cleber Gasparoto"
+    Owner       = "Ismael alves"
     CreatedAt   = "2021-01-14"
   }
 }

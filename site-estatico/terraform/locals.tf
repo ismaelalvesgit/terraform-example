@@ -5,7 +5,7 @@ locals {
   website_filepath = "${path.module}/../website"
 
   common_tags = {
-    Project   = "Curso AWS com Terraform"
+    Project   = "Example Terraform"
     Service   = "Static Website"
     CreatedAt = "2020-03-14"
     Module    = "3"
